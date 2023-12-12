@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+
+  section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    color: #333;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    line-height: 1.6;
+  }
+
+  .verao-dicas ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .verao-dicas li::before {
+    content: '•';
+    color: #333;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+
+  .criancas-dicas {
+    background-color: #ffcc80;
+  }
+  #navegacao{
+    list-style-type: none;
+    position: sticky;  
+    top:0;
+    background-color: #333;
+    margin: 0;
+    overflow: hidden;
+    width:auto;
+
+  }
+  li a{
+    padding: 20px;
+    /*padding-bottom: 20px;
+    padding-left: 14%;
+    padding-right: 14%;*/
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    border: 2px white solid;
+  }
+  li a:hover{
+    background-color: rgb(112, 107, 107);
+  }
+  .menu{
+    display:inline-block;
+  }
+  div.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float:left;
+    width: 180px;
+    height: 210px;
+ }
+ div.gallery:hover {/*Quando o mouse passar pela imagem, uma borda da espessura de 1px com cor #777 aparecerá*/
+    border: 1px solid #777;
+ }
+ div.gallery img {/* Estiliza as tags img das div`s com a classe gallery*/
+width: 100%;/*largura das imagens auto-para que ele ocupe a largura da div*/
+height: 120px;/*altura das imagens*/
+}
+div.desc {/*Estiliza todas as tag's p com a classe desc dentro das minhas div's*/
+    padding: 15px;/*Estabelece uma distancia do texto para a borda*/
+    text-align: center;/*Centraliza o texto*/ 
+}
+div#copa{
+    height: 280px;
+
+}
+
+
